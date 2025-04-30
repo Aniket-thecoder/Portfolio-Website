@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aniket Developer Portfolio</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    background-color: rgb(20, 19, 19);
+    color: white;
+
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(37, 40, 40) ;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    list-style: none;
+    margin: 0 23px;
+} 
+nav ul li a{
+    text-decoration: none;
+    color: white;
+} 
+nav ul li a:hover{
+    color: brown;
+    <!--font-size: 1.04rem;-->
+} 
+main hr{
+    border: 0;
+    background-color: brown;
+    height: 1.2px;
+    margin: 60px 84px;
+
+}
+.left{
+    font-size: 2rem;
+    font-family: Times New Roman;
+}
+.firstSection{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 80px 0;
+}
+.firstSection > div{
+    width: 30%;
+
+}
+.leftSection{
+    font-size: 3rem;
+    margin: 70px 0;
+
+}
+.leftSection .buttons{
+    padding: 50px 0;
+}
+.leftSection .btn{
+    padding: 12px;
+    background-color: rgb(68, 70, 69);
+    color: white;
+    border: 2px solid white;
+    border-radius: 6px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.rightSection img{
+     width: 100%;
+     margin: 50px 0;
+     border: 5px solid;
+     border-color: black;
+
+}
+.purple{
+    color: rgb(225, 81, 158);
+    font-family: Times New Roman;
+    font-size: 4.5rem;
+}
+.text-gray{
+    color: gray;
+    font-size: 1.3rem;
+}
+#element{
+    color: rgb(225, 81, 158);
+    font-family: Times New Roman;
+    font-size: 5rem;
+}
+.secondSection{
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+}
+.secondSection h1{
+    font-size: 2rem;
+}
+.secondSection .box{
+    background-color: white;
+    width: 80vw;
+    height: 2px;
+    margin: 56px 0;
+    display: flex;
+}
+.secondSection .vertical{
+    height: 93px;
+    width: 1px;
+    background-color: white;
+    margin: 0 100px;
+}
+.image-top{
+    width: 30px;
+    position: relative;
+    top: -34px;
+    left: -9px;
+}
+.vertical-title{ 
+    position: relative;
+    top: 75px;
+    color: rgb(101, 171, 205);
+    width: 150px;
+    font-size: 20px;
+}
+.vertical-desc{
+    position: relative;
+    top: 86px;
+    color: blanchedalmond;
+    width: 150px;
+    font-size: 12px;
+}
+footer{
+    background-color: rgb(37, 40, 40);
+   
+}
+.footer{
+    display: flex;
+    padding: 23px 122px;
+    justify-content: space-evenly;
+}
+.footer ul{
+    list-style: none;
+}
+.footer > div{
+    width: 223px;
+}
+footer .footer-rights{
+    text-align: center;
+    color: gray;
+    padding: 12px;
+
+}
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">Aniket Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="/" target="_blank">Projects</a></li>
+                    <li><a href="/">Contact</a></li>
+
+                </ul>
+            </div>
+
+        </nav>
+    </header>
+     <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi, My Name is <span class="purple">Aniket</span> 
+            <div>and I am a Passionate</div>
+            <span id="element"></span>
+            <div class="buttons">
+              <button class="btn">Dowlode Resume</button>
+              <button class="btn">Linkedin</button>
+              <button class="btn">Github</button>
+            </div>
+            </div>
+            <div class="rightSection">
+                <img src="https://img.freepik.com/premium-photo/anime-boy-with-black-hair-hoodie-staring-something-generative-ai_955925-63915.jpg" alt="">
+            </div>
+        </section>
+        <hr>
+        <section class="secondSection">
+            <span class="text-gray">What I have Done So Far</span>
+            <h1>Work Experience</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="https://e7.pngegg.com/pngimages/1019/258/png-clipart-web-development-source-code-computer-programming-computer-icons-html-coding-miscellaneous-angle.png" alt="">
+                    <div class="vertical-title">
+                        Web Developer (2022-2025)
+                    </div>
+                    <div class="vertical-desc">
+                 HTML (HyperText Markup Language) is the code that is used to structure a web page and its content.
+                 For example, content could be structured within a set of paragraphs, a list of bulleted points, 
+                 or using images and data tables.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4P-pt61PeTsAj_1b-Bb_MmFpUO22360XrQw&s" alt="">
+                    <div class="vertical-title">
+                        Node.js Developer (2023-2026)
+                    </div>
+                    <div class="vertical-desc">
+                        It is used for server-side programming, and primarily deployed for non-blocking, event-driven servers,
+                         such as traditional web sites and back-end API services, but was originally designed with real-time,
+                          push-based architectures in mind. Every browser has its own version of a JS engine, and node.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="https://cdn.vectorstock.com/i/500p/04/43/dsa-letter-logo-design-for-technology-company-vector-54590443.jpg" alt="">
+                    <div class="vertical-title">
+                        DSA with C (2024-2026)
+                    </div>
+                    <div class="vertical-desc">
+                        C++: If your primary goal is mainly focusing in problem solving using DSA 
+                        and clearing DSA rounds as part of your campus placements, C++ is the right choice as C++ 
+                        is known for its speed and efficiency, making it an excellent choice for DSA.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="https://cdn.icon-icons.com/icons2/3053/PNG/512/microsoft_visual_studio_macos_bigsur_icon_189958.png" alt="">
+                    <div class="vertical-title">
+                        ASP.NET (2024-2026)
+                    </div>
+                    <div class="vertical-desc">
+                        ASP.NET is an open source web framework, created by Microsoft, for building modern web apps and services with
+                         . NET. ASP.NET is cross platform and runs on Linux, Windows, macOS, and Docker.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="https://cdn-icons-png.flaticon.com/512/226/226777.png" alt="">
+                    <div class="vertical-title">
+                        Java Developer (2025-2027)
+                    </div>
+                    <div class="vertical-desc">
+                        Java is a multi-platform, object-oriented, and network-centric language that can be used as a platform in itself.
+                         It is a fast, secure, reliable programming language for coding everything from mobile apps and
+                          enterprise software to big data applications and server-side technologies.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="https://www.cnet.com/a/img/resize/dbe775423efc71ed6061d48898166e9dbd3853be/hub/2023/08/24/821b0d86-e29b-4028-ac71-ef63ca020de8/gettyimages-1472123000.jpg?auto=webp&fit=crop&height=1200&width=1200" alt="">
+                    <div class="vertical-title">
+                        AI Developer (2026-2027)
+                    </div>
+                    <div class="vertical-desc">
+                        Artificial intelligence (AI) is a set of technologies that enable computers
+                         to perform a variety of advanced functions, including the ability to see, understand
+                          and translate spoken and written language, analyze data, make recommendations, and more.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="https://www.ledge.com.au/uploads/Cyber-Security-Threats-min.png" alt="">
+                    <div class="vertical-title">
+                        Cyber Security (2024-2027)
+                    </div>
+                    <div class="vertical-desc">
+                        Cyber security is how individuals and organisations reduce the risk of cyber attack.
+                         Cyber security's core function is to protect the devices we all use
+                          (smartphones, laptops, tablets and computers), and the services we access - both online and at
+                           work - from theft or damage.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="https://banner2.cleanpng.com/20180408/pew/avgkwvnq1.webp" alt="">
+                    <div class="vertical-title">
+                        C++ Developer (2024-2027)
+                    </div>
+                    <div class="vertical-desc">
+                        C++ is used in fields such as system software, game development, embedded systems,
+                         scientific computing and high-performance applications. The C++ standard library provides a 
+                         range of coding utilities and functions, making it easy to develop complex software systems.
+                    </div>
+                </div>
+                <!--<div class="vertical"></div>
+                <div class="vertical"></div>
+                <div class="vertical"></div>-->
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Aniket Developer Portfolio</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div class="footer-fourth">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-rights">
+            Copyrirht &#169; aniketportfolio.com | All rights reserverd 
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script> 
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+  <!-- Setup and start animation! -->
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['Web Designer', 'Graphic Designer','UI/UX Designer', 'Video Editor', 'Content Writter', 'Web Developer'],
+      typeSpeed: 50,
+    });
+  </script>
+</body>
+</html
